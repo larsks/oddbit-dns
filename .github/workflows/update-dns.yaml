@@ -1,0 +1,37 @@
+name: Update DNS records
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'group_vars/all/dns/**'
+
+jobs:
+  update-dns:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '^3.9'
+
+      - name: Configure caching
+        uses: actions/cache@v2
+        with:
+          path: ~/.local
+          key: ansible-v3-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install requirements
+        run: |
+          pip install --user -r requirements.txt
+
+      - name: Run playbook
+        run: |
+          ansible-playbook playbook.yml
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
