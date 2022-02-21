@@ -1,7 +1,7 @@
 - name: "Create resource records for {{zone}}"
   route53:
     state: present
-    overwrite: "{{ overwrite|default(false) }}"
+    overwrite: "{{ rr.overwrite|default(dns_overwrite)|default(false) }}"
     zone: "{{ zone }}"
     record: "{{ rr.Name }}"
     type: "{{ rr.Type }}"
