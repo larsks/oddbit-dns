@@ -1,0 +1,13 @@
+- hosts: localhost
+  gather_facts: false
+  collections:
+    - community.aws
+  tasks:
+    - name: create resource records
+      include_role:
+        name: route53_records
+      vars:
+        zone: "{{ item.zone }}"
+        ttl: "{{ item.ttl|default(omit) }}"
+        records: "{{ item.ResourceRecordSets }}"
+      loop: "{{ all_dns_zones }}"

@@ -1,0 +1,14 @@
+- name: "Create resource records for {{zone}}"
+  route53:
+    state: present
+    overwrite: "{{ overwrite|default(false) }}"
+    zone: "{{ zone }}"
+    record: "{{ rr.Name }}"
+    type: "{{ rr.Type }}"
+    ttl: "{{ rr.TTL|default(ttl)|default(omit) }}"
+    value: "{{ rr.ResourceRecords|map(attribute='Value') }}"
+    wait: true
+  loop: "{{ records }}"
+  loop_control:
+    loop_var: "rr"
+    label: "{{ rr.Name }}/{{ rr.Type }}"

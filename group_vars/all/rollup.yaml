@@ -1,0 +1,1 @@
+all_dns_zones: "{{ q('vars', *q('varnames', '_dns_zone$')) | flatten }}"
