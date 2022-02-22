@@ -101,3 +101,10 @@ oddbit_dns_zone:
         TTL: 900
         ResourceRecords:
           - Value: larsks.github.io.
+      - Name: dyn.oddbit.com
+        Type: NS
+        ResourceRecords:
+          - Value: ns-1941.awsdns-50.co.uk.
+          - Value: ns-1159.awsdns-16.org.
+          - Value: ns-902.awsdns-48.net.
+          - Value: ns-433.awsdns-54.com.
