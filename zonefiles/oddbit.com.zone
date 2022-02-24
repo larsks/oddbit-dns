@@ -26,7 +26,6 @@ house                         900     IN  CNAME  house.dyn
 iphone.vpn                    900     IN  A      192.168.64.15
 ipv6                          3600    IN  AAAA   2001:470:1f06:46f::2
 ipv6                          300     IN  MX     10 ipv6.oddbit.com.
-jekyll-example                300     IN  CNAME  larsks.github.io.
 k3s                           1800    IN  A      104.131.20.44
 madhatter.vpn                 900     IN  A      192.168.64.10
 mx                            900     IN  A      162.243.41.165
