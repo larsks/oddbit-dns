@@ -1,6 +1,5 @@
 ZONES = \
 	oddbit.com \
-	dyn.oddbit.com \
 	larsshack.org \
 	vankelsted.org \
 	avglks.org
