@@ -28,7 +28,7 @@ jobs:
       - name: Update zones
         run: |
           set -e
-          git diff --name-only HEAD^ -- '*.zone' | while read zonefile; do
+          git diff --diff-filter=ACRM --name-only HEAD^ -- '*.zone' | while read zonefile; do
             zone=${zonefile##*/}
             zone=${zone%.zone}
             $HOME/bin/cli53 import --replace -n --file $zonefile $zone &&
