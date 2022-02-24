@@ -1,0 +1,41 @@
+$ORIGIN oddbit.com.                              
+@                             900     IN  SOA    ns-1835.awsdns-37.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+@                             900     IN  A      192.30.252.153
+@                             900     IN  A      192.30.252.154
+@                             900     IN  MX     10 mx1.emailsrvr.com.
+@                             900     IN  MX     20 mx2.emailsrvr.com.
+@                             172800  IN  NS     ns-1835.awsdns-37.co.uk.
+@                             172800  IN  NS     ns-487.awsdns-60.com.
+@                             172800  IN  NS     ns-1224.awsdns-25.org.
+@                             172800  IN  NS     ns-575.awsdns-07.net.
+@                             3600    IN  TXT    "v=spf1 mx include:emailsrvr.com ~all"
+20180920-g2b7aziw._domainkey  300     IN  TXT    "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzIDIDRrbQV00mg9mnfLRfYjQqnb26te8daVI4LC84HH/d1vTrJ6/mUxsZw0sd15eVwSNEDp9sQnKCGD7b+ahKwtxXqm2YEot4rwfON+dOvQw9b7FN1v0xY2ynPgTjlMiXQrDQGpD6Wwbwiyv6giYqSBGSmE17Y5Z7whbdL4BChQIDAQAB"
+_keybase                      3600    IN  TXT    "keybase-site-verification=X_KceH6-qe5vbr_wPgjBRFxxl7IfvVe0HuF5TbU7_-0"
+bbslist                       300     IN  CNAME  larsks.github.io.
+blog                          900     IN  CNAME  larsks.github.io.
+bouncer                       900     IN  A      159.203.147.134
+bouncer.vpn                   900     IN  A      192.168.64.1
+cloud                         300     IN  NS     ns1.digitalocean.com.
+cloud                         300     IN  NS     ns2.digitalocean.com.
+cloud                         300     IN  NS     ns3.digitalocean.com.
+dyn                           900     IN  NS     ns-1941.awsdns-50.co.uk.
+dyn                           900     IN  NS     ns-1159.awsdns-16.org.
+dyn                           900     IN  NS     ns-902.awsdns-48.net.
+dyn                           900     IN  NS     ns-433.awsdns-54.com.
+house                         900     IN  CNAME  house.dyn
+iphone.vpn                    900     IN  A      192.168.64.15
+ipv6                          3600    IN  AAAA   2001:470:1f06:46f::2
+ipv6                          300     IN  MX     10 ipv6.oddbit.com.
+jekyll-example                300     IN  CNAME  larsks.github.io.
+k3s                           1800    IN  A      104.131.20.44
+madhatter.vpn                 900     IN  A      192.168.64.10
+mx                            900     IN  A      162.243.41.165
+oldbouncer                    300     IN  A      104.131.118.252
+projects                      86400   IN  CNAME  larsks.github.io.
+pubsub.example                900     IN  CNAME  pubsub-oddbit.rhcloud.com.
+r53-test                      60      IN  A      173.48.212.97
+remarkable                    900     IN  CNAME  remarkable-oddbit.rhcloud.com.
+rocket.vpn                    900     IN  A      192.168.64.14
+rs                            900     IN  MX     10 mx.oddbit.com.
+tmate                         300     IN  A      128.52.60.53
+www                           900     IN  CNAME  larsks.github.io.

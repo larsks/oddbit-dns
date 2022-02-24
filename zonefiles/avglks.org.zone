@@ -1,0 +1,9 @@
+$ORIGIN avglks.org.                   
+@                    900     IN  SOA  ns-1974.awsdns-54.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+@                    900     IN  MX   10 mx1.emailsrvr.com.
+@                    900     IN  MX   20 mx2.emailsrvr.com.
+@                    172800  IN  NS   ns-1974.awsdns-54.co.uk.
+@                    172800  IN  NS   ns-1083.awsdns-07.org.
+@                    172800  IN  NS   ns-244.awsdns-30.com.
+@                    172800  IN  NS   ns-791.awsdns-34.net.
+@                    900     IN  TXT  "v=spf1 mx include:emailsrvr.com ~all"

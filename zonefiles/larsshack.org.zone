@@ -1,0 +1,10 @@
+$ORIGIN larsshack.org.                           
+@                             900     IN  SOA    ns-823.awsdns-38.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+@                             900     IN  MX     10 mx1.emailsrvr.com.
+@                             900     IN  MX     20 mx2.emailsrvr.com.
+@                             172800  IN  NS     ns-823.awsdns-38.net.
+@                             172800  IN  NS     ns-1095.awsdns-08.org.
+@                             172800  IN  NS     ns-2037.awsdns-62.co.uk.
+@                             172800  IN  NS     ns-177.awsdns-22.com.
+@                             900     IN  TXT    "v=spf1 mx include:emailsrvr.com ~all"
+20180920-86lb8hqj._domainkey  300     IN  TXT    "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTiOA3AOYl2mA2OWOUYX04vAQvLkqw9Ogx0Ic/P97Wws8m9Hy829U2Ymx1DHgc//Yvm/1qAbriIehdHlMKd4pfMSF6war+zor/36wYB4hUBctWlkXTIQzBvxUHp1zrVvnL4PuO2o5Hc9V8YXr/mfP/84tYSRpuha8gbcAn04/66wIDAQAB"
