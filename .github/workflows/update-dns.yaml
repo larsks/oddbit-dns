@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'group_vars/all/dns/**'
+      - 'zonefiles/**.zone'
 
 jobs:
   update-dns:
@@ -14,24 +14,24 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
 
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '^3.9'
-
-      - name: Configure caching
-        uses: actions/cache@v2
-        with:
-          path: ~/.local
-          key: ansible-v3-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
-
-      - name: Install requirements
+      - name: Install cli53
         run: |
-          pip install --user -r requirements.txt
+          set -e
+          mkdir -p $HOME/bin
+          curl -Lsf -o $HOME/bin/cli53 https://github.com/barnybug/cli53/releases/download/$CLI53_RELEASE/cli53-linux-amd64
+          chmod 755 $HOME/bin/cli53
+        env:
+          CLI53_RELEASE: "0.8.18"
 
-      - name: Run playbook
+      - name: Update zones
         run: |
-          ansible-playbook playbook.yml
+          set -e
+          git diff --name-only HEAD^ -- '*.zone' | while read zonefile; do
+            zone=${zonefile##*/}
+            zone=${zone%.zone}
+            $HOME/bin/cli53 import --replace -n --file $zonefile $zone &&
+              $HOME/bin/cli53 import --replace --file $zonefile $zone
+          done
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
