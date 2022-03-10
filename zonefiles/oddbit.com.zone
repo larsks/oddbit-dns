@@ -28,3 +28,4 @@ madhatter.vpn                 900     IN  A      192.168.64.10
 projects                      86400   IN  CNAME  larsks.github.io.
 rocket.vpn                    900     IN  A      192.168.64.14
 www                           900     IN  CNAME  larsks.github.io.
+tmate                         900     IN  A      128.52.61.133
