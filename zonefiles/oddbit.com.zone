@@ -10,8 +10,9 @@ $ORIGIN oddbit.com.
 @                             172800  IN  NS     ns-575.awsdns-07.net.
 @                             3600    IN  TXT    "v=spf1 mx include:emailsrvr.com ~all"
 @                             3600    IN  TXT    "google-site-verification=ahxJ4iLWnZQYDV8r5cg_5Qz1MeImgyuoCq7iLx6-DzE"
+@                             86400   IN  TXT    "openpgp4fpr:3E70A502BB5255B6BB8E86BE362D63A80853D4CF"
 20180920-g2b7aziw._domainkey  300     IN  TXT    "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzIDIDRrbQV00mg9mnfLRfYjQqnb26te8daVI4LC84HH/d1vTrJ6/mUxsZw0sd15eVwSNEDp9sQnKCGD7b+ahKwtxXqm2YEot4rwfON+dOvQw9b7FN1v0xY2ynPgTjlMiXQrDQGpD6Wwbwiyv6giYqSBGSmE17Y5Z7whbdL4BChQIDAQAB"
-_keybase                      3600    IN  TXT    "keybase-site-verification=X_KceH6-qe5vbr_wPgjBRFxxl7IfvVe0HuF5TbU7_-0"
+_keybase                      86400   IN  TXT    "keybase-site-verification=X_KceH6-qe5vbr_wPgjBRFxxl7IfvVe0HuF5TbU7_-0"
 blog                          900     IN  CNAME  larsks.github.io.
 bouncer                       900     IN  A      159.203.147.134
 bouncer.vpn                   900     IN  A      192.168.64.1
