@@ -27,6 +27,7 @@ house                         900     IN  CNAME  house.dyn
 iphone.vpn                    900     IN  A      192.168.64.15
 k3s                           1800    IN  A      104.131.20.44
 madhatter.vpn                 900     IN  A      192.168.64.10
+openpgpkey                    900     IN  CNAME  wkd.keys.openpgp.org.
 projects                      86400   IN  CNAME  larsks.github.io.
 rocket.vpn                    900     IN  A      192.168.64.14
 www                           900     IN  CNAME  larsks.github.io.
