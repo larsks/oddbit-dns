@@ -1,7 +1,9 @@
 $ORIGIN oddbit.com.                              
 @                             900     IN  SOA    ns-1835.awsdns-37.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
-@                             900     IN  A      192.30.252.153
-@                             900     IN  A      192.30.252.154
+@                             900     IN  A      185.199.108.153
+@                             900     IN  A      185.199.109.153
+@                             900     IN  A      185.199.110.153
+@                             900     IN  A      185.199.111.153
 @                             900     IN  MX     10 mx1.emailsrvr.com.
 @                             900     IN  MX     20 mx2.emailsrvr.com.
 @                             172800  IN  NS     ns-1835.awsdns-37.co.uk.
