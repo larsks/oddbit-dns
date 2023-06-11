@@ -32,6 +32,7 @@ madhatter.vpn                 900     IN  A      192.168.64.10
 openpgpkey                    900     IN  CNAME  wkd.keys.openpgp.org.
 projects                      86400   IN  CNAME  larsks.github.io.
 rocket.vpn                    900     IN  A      192.168.64.14
+slides                        900     IN  CNAME  oddbit.com.
 www                           900     IN  CNAME  larsks.github.io.
 tmate                         900     IN  A      128.52.61.133
 api.cluster0.openshift        900     IN  A      128.31.28.90
