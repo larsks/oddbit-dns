@@ -1,4 +1,5 @@
-$ORIGIN larsshack.org.                           
+$ORIGIN larsshack.org.
+
 @                             900     IN  SOA    ns-823.awsdns-38.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
 @                             900     IN  MX     10 mx1.emailsrvr.com.
 @                             900     IN  MX     20 mx2.emailsrvr.com.
