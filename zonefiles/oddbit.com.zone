@@ -36,5 +36,3 @@ rocket.vpn                    900     IN  A      192.168.64.14
 slides                        900     IN  CNAME  oddbit.com.
 www                           900     IN  CNAME  larsks.github.io.
 tmate                         900     IN  A      128.52.61.133
-api.cluster0.openshift        900     IN  A      128.31.28.90
-*.apps.cluster0.openshift     900     IN  A      128.31.28.91
