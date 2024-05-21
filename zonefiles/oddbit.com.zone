@@ -68,4 +68,3 @@ house                         900     IN  CNAME  house.dyn
 k3s                           1800    IN  A      104.131.20.44
 openpgpkey                    900     IN  CNAME  wkd.keys.openpgp.org.
 slides                        900     IN  CNAME  oddbit.com.
-*.shift                       900     IN  A      199.94.63.6
