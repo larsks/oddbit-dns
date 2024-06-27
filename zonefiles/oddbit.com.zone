@@ -49,6 +49,7 @@ snarf.vpn                     900     IN  A      192.168.64.14
 iphone.vpn                    900     IN  A      192.168.64.15
 fizzgig.vpn                   900     IN  A      192.168.64.16
 nuclhead.vpn                  900     IN  A      192.168.64.17
+vt220.vpn                     900     IN  A      192.168.64.18
 
 ;;
 ;; AMPRNet allocations
