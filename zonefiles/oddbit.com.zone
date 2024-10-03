@@ -37,6 +37,7 @@ blog                          900     IN  CNAME  larsks.github.io.
 picocom-ng                    900     IN  CNAME  picocom-ng.github.io.
 projects                      86400   IN  CNAME  larsks.github.io.
 www                           900     IN  CNAME  larsks.github.io.
+n1lks                         900     IN  CNAME  larsks.github.io.
 
 ;;
 ;; VPN addresses
