@@ -9,3 +9,6 @@ $ORIGIN larsshack.org.
 @                             172800  IN  NS     ns-177.awsdns-22.com.
 @                             900     IN  TXT    "v=spf1 mx include:emailsrvr.com ~all"
 20180920-86lb8hqj._domainkey  300     IN  TXT    "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTiOA3AOYl2mA2OWOUYX04vAQvLkqw9Ogx0Ic/P97Wws8m9Hy829U2Ymx1DHgc//Yvm/1qAbriIehdHlMKd4pfMSF6war+zor/36wYB4hUBctWlkXTIQzBvxUHp1zrVvnL4PuO2o5Hc9V8YXr/mfP/84tYSRpuha8gbcAn04/66wIDAQAB"
+
+books.larsshack.org.          900     IN  CNAME  pgs.sh.
+_pgs.books.larsshack.org.     900     IN  TXT    "larsks-books"
