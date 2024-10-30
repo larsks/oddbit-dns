@@ -65,8 +65,6 @@ radio3                        900     IN  A      44.61.3.19
 ;; Everything else
 ;;
 
-bouncer                       900     IN  A      159.203.147.134
 house                         900     IN  CNAME  house.dyn
-k3s                           1800    IN  A      104.131.20.44
 openpgpkey                    900     IN  CNAME  wkd.keys.openpgp.org.
-slides                        900     IN  CNAME  oddbit.com.
+hamrss                        900     IN  CNAME  default-router.apps.shift.nerc.mghpcc.org.
