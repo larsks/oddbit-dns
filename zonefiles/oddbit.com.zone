@@ -68,3 +68,6 @@ radio3                        900     IN  A      44.61.3.19
 house                         900     IN  CNAME  house.dyn
 openpgpkey                    900     IN  CNAME  wkd.keys.openpgp.org.
 hamrss                        900     IN  CNAME  default-router.apps.shift.nerc.mghpcc.org.
+cert-example                  900     IN  CNAME  default-router.apps.shift.nerc.mghpcc.org.
+cert-example-1                900     IN  CNAME  router-default.apps.shift.nerc.mghpcc.org.
+cert-example-2                900     IN  CNAME  electric-purple-sheep.apps.shift.nerc.mghpcc.org.
