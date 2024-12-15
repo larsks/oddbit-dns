@@ -43,7 +43,6 @@ n1lks                         900     IN  CNAME  larsks.github.io.
 ;; VPN addresses
 ;;
 
-bouncer.vpn                   900     IN CNAME bouncer.tail4f5c56.ts.net.
 madhatter.vpn                 900     IN CNAME madhatter.tail4f5c56.ts.net.
 mushu.vpn                     900     IN CNAME mushu.tail4f5c56.ts.net.
 snarf.vpn                     900     IN CNAME snarf.tail4f5c56.ts.net.
@@ -68,6 +67,3 @@ radio3                        900     IN  A      44.61.3.19
 house                         900     IN  CNAME  house.dyn
 openpgpkey                    900     IN  CNAME  wkd.keys.openpgp.org.
 hamrss                        900     IN  CNAME  default-router.apps.shift.nerc.mghpcc.org.
-cert-example                  900     IN  CNAME  default-router.apps.shift.nerc.mghpcc.org.
-cert-example-1                900     IN  CNAME  router-default.apps.shift.nerc.mghpcc.org.
-cert-example-2                900     IN  CNAME  electric-purple-sheep.apps.shift.nerc.mghpcc.org.
