@@ -66,5 +66,6 @@ radio3                        900     IN  A      44.61.3.19
 ;;
 
 house                         900     IN  CNAME  house.dyn
+house.ipv6                    900     IN  AAAA   2600:4040:5f53:d200:d5e3:c89f:e65f:fa6b
 openpgpkey                    900     IN  CNAME  wkd.keys.openpgp.org.
 hamrss                        900     IN  CNAME  default-router.apps.shift.nerc.mghpcc.org.
