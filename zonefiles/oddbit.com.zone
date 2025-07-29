@@ -52,6 +52,8 @@ fizzgig.vpn                   900     IN CNAME fizzgig.tail4f5c56.ts.net.
 nuclhead.vpn                  900     IN CNAME nuclhead.tail4f5c56.ts.net.
 vt220.vpn                     900     IN CNAME vt220.tail4f5c56.ts.net.
 
+dancer                        900     IN CNAME dancer.tail4f5c56.ts.net.
+
 ;;
 ;; AMPRNet allocations
 ;;
