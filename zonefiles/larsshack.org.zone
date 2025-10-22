@@ -12,3 +12,5 @@ $ORIGIN larsshack.org.
 
 books.larsshack.org.          900     IN  CNAME  pgs.sh.
 _pgs.books.larsshack.org.     900     IN  TXT    "larsks-books"
+www.larsshack.org.            900     IN  CNAME  pgs.sh.
+_pgs.www.larsshack.org.       900     IN  TXT    "larsks-www-larsshack"
