@@ -42,6 +42,12 @@ projects                      86400   IN  CNAME  larsks.github.io.
 www                           900     IN  CNAME  larsks.github.io.
 
 ;;
+;; Firebase hosting
+;;
+
+caara-races                   900     IN  CNAME   caara-races.web.app.
+
+;;
 ;; VPN addresses
 ;;
 
