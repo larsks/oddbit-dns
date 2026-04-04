@@ -79,3 +79,4 @@ house.ipv6                    900     IN  AAAA   2600:4040:5f53:d200:d5e3:c89f:e
 openpgpkey                    900     IN  CNAME  wkd.keys.openpgp.org.
 hamrss                        900     IN  CNAME  default-router.apps.shift.nerc.mghpcc.org.
 auth                          900     IN  A       199.94.63.6
+caara-races-dev               900     IN  A       199.94.63.6
