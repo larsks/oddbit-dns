@@ -40,6 +40,7 @@ mmranews                      900     IN  CNAME  larsks.github.io.
 n1lks                         900     IN  CNAME  larsks.github.io.
 projects                      86400   IN  CNAME  larsks.github.io.
 www                           900     IN  CNAME  larsks.github.io.
+caara-net                     900     IN  CNAME  larsks.github.io.
 
 ;;
 ;; Firebase hosting
