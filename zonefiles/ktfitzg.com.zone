@@ -1,0 +1,22 @@
+$ORIGIN ktfitzg.com.
+@	900	IN	SOA	ns-940.awsdns-53.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+@	3600	IN	MX	10 aspmx5.googlemail.com.
+@	3600	IN	MX	10 aspmx4.googlemail.com.
+@	3600	IN	MX	10 aspmx3.googlemail.com.
+@	3600	IN	MX	10 aspmx2.googlemail.com.
+@	3600	IN	MX	5 alt2.aspmx.l.google.com.
+@	3600	IN	MX	5 alt1.aspmx.l.google.com.
+@	3600	IN	MX	1 aspmx.l.google.com.
+@	172800	IN	NS	ns-940.awsdns-53.net.
+@	172800	IN	NS	ns-136.awsdns-17.com.
+@	172800	IN	NS	ns-1639.awsdns-12.co.uk.
+@	172800	IN	NS	ns-1281.awsdns-32.org.
+@	3600	IN	TXT	"v=spf1 include:_spf.google.com ~all"
+calendar	3600	IN	CNAME	ghs.google.com.
+docs	3600	IN	CNAME	ghs.google.com.
+googleffffffffc63ea11b	3600	IN	CNAME	google.com.
+mail	3600	IN	CNAME	ghs.google.com.
+sites	3600	IN	CNAME	ghs.google.com.
+start	3600	IN	CNAME	ghs.google.com.
+webmail	3600	IN	CNAME	ghs.google.com.
+www	3600	IN	CNAME	ghs.google.com.
