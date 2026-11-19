@@ -82,4 +82,4 @@ hamrss                        900     IN  CNAME  default-router.apps.shift.nerc.
 auth                          900     IN  CNAME  default-router.apps.shift.nerc.mghpcc.org.
 caara-races-dev               900     IN  CNAME  default-router.apps.shift.nerc.mghpcc.org.
 vault                         900     IN  CNAME  default-router.apps.shift.nerc.mghpcc.org.
-vmetrics                      900     IN  A      35.208.71.57
+vmetrics                      300     IN  A      34.123.66.176
